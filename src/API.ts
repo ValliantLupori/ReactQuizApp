@@ -1,5 +1,4 @@
 import {shuffleArray} from "./utils"
-import * as QueryString from "querystring";
 
 export type Question = {
     category: string;
@@ -9,8 +8,6 @@ export type Question = {
     question: string,
     type: string
 }
-
-
 
 export type QuestionState = Question & {answers: string[]}
 
